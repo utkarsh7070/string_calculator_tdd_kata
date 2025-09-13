@@ -1,16 +1,53 @@
 # string_calculator_tdd_kata
 
-A new Flutter project.
+---
 
-## Getting Started
+## Test Results
 
-This project is a starting point for a Flutter application.
+**All 15 tests passing ✅**
 
-A few resources to get you started if this is your first Flutter project:
+<img width="1366" height="729" alt="Capture" src="https://github.com/user-attachments/assets/dcf17657-0269-478d-b005-13c24a1a87dc" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Test Coverage Breakdown:
+- **Basic Operations**: 4 tests (empty, single, double, multiple)
+- **Format Handling**: 3 tests (newlines, custom delimiters)  
+- **Error Handling**: 3 tests (negative numbers, multiple negatives)
+- **Edge Cases**: 3 tests (whitespace, empty segments, large numbers)
+- **Bonus Features**: 2 tests (numbers >1000, complex scenarios)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🏃‍♂️ Quick Start
+
+### Prerequisites
+```bash
+# Ensure Dart SDK is installed
+dart --version
+# Should show: Dart SDK version: 2.18.0 or higher
+```
+
+
+## How to run tests
+```bash
+# 1. Clone the repository
+git clone
+cd string_calculator_tdd_kata
+
+# 2. Install dependencies
+dart pub get
+
+# 3. Run all tests
+dart test
+
+# 4. Run with detailed output
+dart test --reporter=expanded
+
+# 5. Generate coverage report
+dart test --coverage=coverage
+
+```
+## Expected Result
+```bash
+$ dart test
+00:02 +15: All tests passed!
+```
